@@ -1,0 +1,11 @@
+{
+  "namespace": "com.cbcalla.avrokafkaexample.models.avro",
+  "type": "record",
+  "name": "Rx",
+  "fields": [
+    { "name": "rxId", "type": "string"  },
+    { "name": "rxNbr", "type": [ "null", "string" ], "default": null },
+    { "name":  "patientId", "type":  "int", "default":  0 },
+    { "name": "status", "type": "RxStatus" }
+  ]
+}

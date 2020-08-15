@@ -1,0 +1,6 @@
+{
+  "namespace": "com.cbcalla.avrokafkaexample.models.avro",
+  "name": "RxStatus",
+  "type": "enum",
+  "symbols": ["ACTIVE","CANCELLED","TRANSFERRED","ON_HOLD","DEACTIVATED"]
+}
